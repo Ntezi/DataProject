@@ -1,9 +1,11 @@
 # Data Project - Web Scraping
 
 ## Run Instructions
-1. Run ```scrapy crawl law-firms -o law-firm.csv``` to get a list of companies
-2. Run ```scrapy crawl law-firm-details -o law-firm-details.csv``` to get a detailed list of of companies
-3. Run ```python visual.py``` to generate a table of data extracted 
+1. Follow the instruction of how to install Scrapy if you don't have it installed on your PC.
+2. Run ```scrapy crawl law-firms -o law-firm.csv``` to get a list of companies
+3. Run ```scrapy crawl law-firm-details -o law-firm-details.csv``` to get a detailed list of of companies
+4. Run ```python visual.py``` to generate a table of data extracted 
+5. To generate aw-firm-details table, please un-comment those two line below (line 12 and 13). But You will need to comment out, first, the lines 6 and 7
 
 ## Description
 This is a Web Scraping project that extract data from https://www.legal500.com/c/france/directory/, a directory of law firms in France. It also get detailed info for each company.
