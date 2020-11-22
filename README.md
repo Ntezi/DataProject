@@ -1,4 +1,4 @@
-# DataProject
+# Data Project - Web Scraping
 
 ## Run Instructions
 1. Run ```scrapy crawl law-firms -o law-firm.csv``` to get a list of companies
